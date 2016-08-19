@@ -14,10 +14,14 @@
     "react-native",
     "countdown"
   ],
+  "devDependencies": {},
   "author": "shigebeyond",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/shigebeyond/react-native-sk-countdown/issues"
   },
-  "homepage": "https://github.com/shigebeyond/react-native-sk-countdown#readme"
+  "homepage": "https://github.com/shigebeyond/react-native-sk-countdown#readme",
+  "dependencies": {
+    "react-addons-update": "^15.3.1"
+  }
 }
