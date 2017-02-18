@@ -11,15 +11,15 @@ this.refs.countDownText.end();
 */
 
 'use strict'
-
-var React = require('react-native');
+var React = require('react');
+var ReactNative = require('react-native');
 
 var {
   StyleSheet,
   Text,
-} = React;
+} = ReactNative;
 
-var update = React.addons.update,
+var update = ReactNative.addons.update,
     countDown = require('./countDown');
 
 var CountDownText = React.createClass({
