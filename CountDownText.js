@@ -19,7 +19,7 @@ var {
   Text,
 } = React;
 
-var update = React.addons.update,
+var update = require('react-addons-update'),
     countDown = require('./countDown');
 
 var CountDownText = React.createClass({
