@@ -12,12 +12,12 @@ this.refs.countDownText.end();
 
 'use strict'
 
-var React = require('react-native');
+import React from 'react'
 
-var {
+import {
   StyleSheet,
-  Text,
-} = React;
+  Text
+} from 'react-native';
 
 var update = require('react-addons-update'),
     countDown = require('./countDown');
